@@ -1,0 +1,18 @@
+import yagmail 
+
+gmail = 'gekoattack@gmail.com'
+contra = 'arjh zxzw zvkv mzao'
+
+yag = yagmail.SMTP(user=gmail, password=contra)
+
+victima= ['guixe222@gmail.com']
+asunto= 'GEKO ATTACK'
+mensaje= 'https://www.youtube.com/watch?v=j_J_6bdEUC4'
+
+for _ in range(10):
+ 
+ yag.send(victima, asunto, mensaje)
+
+ continue
+
+print("Ataque Finalizado Con Exito")
