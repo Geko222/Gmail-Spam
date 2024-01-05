@@ -4,6 +4,7 @@ Un spamer para Gmail rápido y sencillo creado en python capaz de enviar gmail m
 
 ## Requisitos
 Necesitas instalar en la terminal `pip install yagmail`
+Tener una contraseña de aplicacion (Tutorial: https://www.youtube.com/watch?v=AI9KnHI4aKA)
 
 ## Codigo 
 
