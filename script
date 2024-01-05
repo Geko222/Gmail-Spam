@@ -1,15 +1,15 @@
 import yagmail 
 
-gmail = 'gekoattack@gmail.com'
-contra = 'arjh zxzw zvkv mzao'
+gmail = 'tugmail@gmail.com'  #AQUI PONES TU GMAIL
+contra = 'password de aplicacion'   #AQUI PONES TU PASSWORD
 
 yag = yagmail.SMTP(user=gmail, password=contra)
 
-victima= ['guixe222@gmail.com']
+victima= ['gmailvictima@gmail.com']    #AQUI EL GMAIL DE LA VICTIMA
 asunto= 'GEKO ATTACK'
 mensaje= 'https://www.youtube.com/watch?v=j_J_6bdEUC4'
 
-for _ in range(10):
+for _ in range(10):   #AQUI PONES LA CANTIDAD DE SPAM
  
  yag.send(victima, asunto, mensaje)
 
